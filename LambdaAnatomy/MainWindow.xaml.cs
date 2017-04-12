@@ -24,7 +24,7 @@ namespace LambdaAnatomy
         {
             InitializeComponent();
             ClickMeButton.Click += 
-                ( sender,  e) =>
+                ( s,  e) =>
                 {
                     MessageBox.Show("Hello World");
                 };
