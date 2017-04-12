@@ -23,11 +23,8 @@ namespace LambdaAnatomy
         public MainWindow()
         {
             InitializeComponent();
-            ClickMeButton.Click += 
-                ( s,  e) =>
-                {
-                    MessageBox.Show("Hello World");
-                };
+            ClickMeButton.Click += ( s,  e) => MessageBox.Show("Hello World");
+
 
             /*ClickMeButton.Click += 
                 ( s, e) => MessageBox.Show("Hello World");*/
